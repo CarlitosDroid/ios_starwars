@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         myTableView.dataSource = self
         myTableView.delegate = self
+        myTableView.tableFooterView = UIView()
         
         getStarWarsPersons { (persons) in
             self.swPersons = persons
@@ -48,20 +49,24 @@ extension ViewController : UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.swPersons.count
+        if section == 0 {
+            return self.swPersons.count
+        }
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         cell.textLabel?.text = self.swPersons[indexPath.row].name
         return cell
+        
     }
     
     
 }
 extension ViewController : UITableViewDelegate  {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 20
+        return 30
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -92,13 +97,13 @@ class Person: Codable {
     var height:String?
     var mass:String?
     var gender:String?
-    var homeWorld:String?
+    var homeworld:String?
     enum CodingKeys: String, CodingKey {
         case name
         case height
         case mass
         case gender
-        case homeWorld
+        case homeworld
     }
 }
 class Result: Codable {

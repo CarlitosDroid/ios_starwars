@@ -11,6 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
 
     
+
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var heightLabel: UILabel!
     @IBOutlet weak var massLabel: UILabel!
@@ -24,7 +25,7 @@ class DetailViewController: UIViewController {
         nameLabel.text      = person.name
         heightLabel.text    = person.height
         massLabel.text      = person.mass
-        homeWorldLabel.text = person.homeWorld
+        homeWorldLabel.text = person.homeworld
         genderLabel.text    = person.gender
         
     }
