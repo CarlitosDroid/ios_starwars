@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         myTableView.dataSource = self
         myTableView.delegate = self
-        // Do any additional setup after loading the view, typically from a nib.
+        
         getStarWarsPersons { (persons) in
             self.swPersons = persons
             DispatchQueue.main.async {
@@ -25,6 +25,18 @@ class ViewController: UIViewController {
             }
         }
         
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goDetail" {
+            guard let data = sender as? Person else {
+                return
+            }
+            guard let detailVC  = segue.destination as? DetailViewController else {
+                return
+            }
+            detailVC.person = data
+        }
     }
 
 
@@ -51,6 +63,10 @@ extension ViewController : UITableViewDelegate  {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 20
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "goDetail", sender: self.swPersons[indexPath.row])
+    }
 }
 
 extension ViewController{
@@ -73,8 +89,16 @@ extension ViewController{
 
 class Person: Codable {
     var name:String?
+    var height:String?
+    var mass:String?
+    var gender:String?
+    var homeWorld:String?
     enum CodingKeys: String, CodingKey {
         case name
+        case height
+        case mass
+        case gender
+        case homeWorld
     }
 }
 class Result: Codable {
