@@ -10,15 +10,14 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    
 
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var heightLabel: UILabel!
-    @IBOutlet weak var massLabel: UILabel!
-    @IBOutlet weak var genderLabel: UILabel!
+    @IBOutlet weak var nameLabel:      UILabel!
+    @IBOutlet weak var heightLabel:    UILabel!
+    @IBOutlet weak var massLabel:      UILabel!
+    @IBOutlet weak var genderLabel:    UILabel!
     @IBOutlet weak var homeWorldLabel: UILabel!
     var person: Person!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
