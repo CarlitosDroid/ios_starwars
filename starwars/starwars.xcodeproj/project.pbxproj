@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AFC10A171EC15E2AE98519B /* PeopleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC18A64B5886C3D88C5BAA /* PeopleEntity.swift */; };
+		3AFC10B0FB4069F45F3A8CB7 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC14D3BFA3E5FE39C38BC6 /* LoginRepository.swift */; };
+		3AFC113233213CDC7E00726C /* PeopleDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC19A1076BB67F51BB9F32 /* PeopleDetailResponse.swift */; };
+		3AFC11327E95A3A32B302910 /* PeopleVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1DF6F8BB7D0C797B9DF1 /* PeopleVC+TableView.swift */; };
+		3AFC1139BD62850B3B7445F3 /* SwapiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1F44A2C47089B2532A97 /* SwapiService.swift */; };
+		3AFC15292E4AE86B1E56A25D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1EDB7DBB620AA7731915 /* DetailViewController.swift */; };
+		3AFC1640EC02197CD425018E /* PeopleRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC154858444CE9E729C097 /* PeopleRemoteDataSource.swift */; };
+		3AFC16919001D02C170CDCDC /* GetPeopleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1ACC6BCDC54F843EA825 /* GetPeopleUseCase.swift */; };
+		3AFC187DC4FFF2D4714DA086 /* PeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1B61DC694D14A23BA92A /* PeopleRepository.swift */; };
+		3AFC19158067BF304A54170B /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1143326EB99F0ED3D5C4 /* People.swift */; };
+		3AFC195CFBC500E595E79224 /* GetPeopleDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC162529A20FB5269905F7 /* GetPeopleDetailUseCase.swift */; };
+		3AFC1AC18C28BB40D315AEE9 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1AC4A12CD3C9DE839B37 /* PeopleViewController.swift */; };
+		3AFC1B2117D7B6DB8F5CE9F2 /* UserDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC17B612B61B25BF7C34F2 /* UserDao.swift */; };
+		3AFC1D150D9FAB6304D5414E /* PeopleLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC175912C27F79A2A80972 /* PeopleLocalDataSource.swift */; };
+		3AFC1E1CE21CA50F3636CEED /* PeopleVC+Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1B34592E6B88DD32098B /* PeopleVC+Segue.swift */; };
+		3AFC1E4F38F55859CDD17735 /* SwapiServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1C7F1E72C418C8C8D251 /* SwapiServiceImplementation.swift */; };
+		3AFC1E7F6431DB54405989BC /* ProficientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC124A37DFB08E97E012F5 /* ProficientViewController.swift */; };
+		3AFC1EBA9D9BFD800254CAB1 /* PeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC1B1FD47F183CB3F99AF3 /* PeopleService.swift */; };
+		3AFC1F3F5753770CB04B19C8 /* PeopleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC19582C8793DB3D684EB6 /* PeopleResponse.swift */; };
 		C08CA680222836B300E8609E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08CA67F222836B300E8609E /* AppDelegate.swift */; };
-		C08CA682222836B300E8609E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08CA681222836B300E8609E /* ViewController.swift */; };
 		C08CA685222836B300E8609E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08CA683222836B300E8609E /* Main.storyboard */; };
 		C08CA687222836B400E8609E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08CA686222836B400E8609E /* Assets.xcassets */; };
 		C08CA68A222836B400E8609E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08CA688222836B400E8609E /* LaunchScreen.storyboard */; };
-		C08CA69222286CB500E8609E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08CA69122286CB500E8609E /* DetailViewController.swift */; };
+		C3683A4BB480CF39C6A79387 /* Pods_starwars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7233767942AD34191E0125 /* Pods_starwars.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AFC1143326EB99F0ED3D5C4 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		3AFC124A37DFB08E97E012F5 /* ProficientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProficientViewController.swift; sourceTree = "<group>"; };
+		3AFC14D3BFA3E5FE39C38BC6 /* LoginRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		3AFC154858444CE9E729C097 /* PeopleRemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleRemoteDataSource.swift; sourceTree = "<group>"; };
+		3AFC162529A20FB5269905F7 /* GetPeopleDetailUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPeopleDetailUseCase.swift; sourceTree = "<group>"; };
+		3AFC175912C27F79A2A80972 /* PeopleLocalDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleLocalDataSource.swift; sourceTree = "<group>"; };
+		3AFC17B612B61B25BF7C34F2 /* UserDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDao.swift; sourceTree = "<group>"; };
+		3AFC18A64B5886C3D88C5BAA /* PeopleEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleEntity.swift; sourceTree = "<group>"; };
+		3AFC19582C8793DB3D684EB6 /* PeopleResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleResponse.swift; sourceTree = "<group>"; };
+		3AFC19A1076BB67F51BB9F32 /* PeopleDetailResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDetailResponse.swift; sourceTree = "<group>"; };
+		3AFC1AC4A12CD3C9DE839B37 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		3AFC1ACC6BCDC54F843EA825 /* GetPeopleUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPeopleUseCase.swift; sourceTree = "<group>"; };
+		3AFC1B1FD47F183CB3F99AF3 /* PeopleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleService.swift; sourceTree = "<group>"; };
+		3AFC1B34592E6B88DD32098B /* PeopleVC+Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PeopleVC+Segue.swift"; sourceTree = "<group>"; };
+		3AFC1B61DC694D14A23BA92A /* PeopleRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleRepository.swift; sourceTree = "<group>"; };
+		3AFC1C7F1E72C418C8C8D251 /* SwapiServiceImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapiServiceImplementation.swift; sourceTree = "<group>"; };
+		3AFC1DF6F8BB7D0C797B9DF1 /* PeopleVC+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PeopleVC+TableView.swift"; sourceTree = "<group>"; };
+		3AFC1EDB7DBB620AA7731915 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3AFC1F44A2C47089B2532A97 /* SwapiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapiService.swift; sourceTree = "<group>"; };
+		66AAAFDEDD59C45454B7FBC9 /* Pods-starwars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starwars.debug.xcconfig"; path = "Target Support Files/Pods-starwars/Pods-starwars.debug.xcconfig"; sourceTree = "<group>"; };
+		7C7233767942AD34191E0125 /* Pods_starwars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_starwars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F073F5C7BFF715D1349CBE /* Pods-starwars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starwars.release.xcconfig"; path = "Target Support Files/Pods-starwars/Pods-starwars.release.xcconfig"; sourceTree = "<group>"; };
 		C08CA67C222836B300E8609E /* starwars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starwars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08CA67F222836B300E8609E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C08CA681222836B300E8609E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C08CA684222836B300E8609E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C08CA686222836B400E8609E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C08CA689222836B400E8609E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C08CA68B222836B400E8609E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C08CA69122286CB500E8609E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,223 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3683A4BB480CF39C6A79387 /* Pods_starwars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AFC108F4CA7083D1130347D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC1143326EB99F0ED3D5C4 /* People.swift */,
+				3AFC14555BCB536764884B28 /* entity */,
+				3AFC1E2033CB3C6D74624C22 /* services */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3AFC10C1114D9C4F33E031FA /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC1DA4A8B63ED89EE26FC5 /* people */,
+				3AFC1BFDBD258338E653DB2E /* proficient */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		3AFC1104E6530089D422080A /* login */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC168F14E0914DFF40D284 /* data */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		3AFC116FCE5F02A48379AEBF /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC1C7F1E72C418C8C8D251 /* SwapiServiceImplementation.swift */,
+				3AFC1F44A2C47089B2532A97 /* SwapiService.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		3AFC1310D7FA42D729F4306F /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC1AB665F52517D896B4BE /* domain */,
+				3AFC198694C449090574CE97 /* data */,
+				3AFC1FA9EF8BE236808AC44F /* ui */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		3AFC1437186EBE16D7A176D2 /* swinject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = swinject;
+			sourceTree = "<group>";
+		};
+		3AFC14555BCB536764884B28 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC18A64B5886C3D88C5BAA /* PeopleEntity.swift */,
+				3AFC19582C8793DB3D684EB6 /* PeopleResponse.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		3AFC15660A80E9AE25FA4273 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC19A1076BB67F51BB9F32 /* PeopleDetailResponse.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3AFC168F14E0914DFF40D284 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC14D3BFA3E5FE39C38BC6 /* LoginRepository.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		3AFC16BC60D06231B605E2D2 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC18431B11745DA551D4ED /* people */,
+				3AFC1310D7FA42D729F4306F /* detail */,
+				3AFC1104E6530089D422080A /* login */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		3AFC18431B11745DA551D4ED /* people */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC197B55DE4603CC7F344A /* domain */,
+				3AFC1CDC013C296AFBCD8383 /* data */,
+				3AFC10C1114D9C4F33E031FA /* ui */,
+				3AFC1437186EBE16D7A176D2 /* swinject */,
+			);
+			path = people;
+			sourceTree = "<group>";
+		};
+		3AFC197B55DE4603CC7F344A /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC1ACC6BCDC54F843EA825 /* GetPeopleUseCase.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		3AFC198694C449090574CE97 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC15660A80E9AE25FA4273 /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		3AFC1AB665F52517D896B4BE /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC162529A20FB5269905F7 /* GetPeopleDetailUseCase.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		3AFC1BFDBD258338E653DB2E /* proficient */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC124A37DFB08E97E012F5 /* ProficientViewController.swift */,
+			);
+			path = proficient;
+			sourceTree = "<group>";
+		};
+		3AFC1CDC013C296AFBCD8383 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC1B61DC694D14A23BA92A /* PeopleRepository.swift */,
+				3AFC154858444CE9E729C097 /* PeopleRemoteDataSource.swift */,
+				3AFC175912C27F79A2A80972 /* PeopleLocalDataSource.swift */,
+				3AFC108F4CA7083D1130347D /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		3AFC1DA4A8B63ED89EE26FC5 /* people */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC1DF6F8BB7D0C797B9DF1 /* PeopleVC+TableView.swift */,
+				3AFC1AC4A12CD3C9DE839B37 /* PeopleViewController.swift */,
+				3AFC1B34592E6B88DD32098B /* PeopleVC+Segue.swift */,
+			);
+			path = people;
+			sourceTree = "<group>";
+		};
+		3AFC1E2033CB3C6D74624C22 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC1B1FD47F183CB3F99AF3 /* PeopleService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		3AFC1E81651B1534C6DA13DC /* local */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC17B612B61B25BF7C34F2 /* UserDao.swift */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		3AFC1FA9EF8BE236808AC44F /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC1EDB7DBB620AA7731915 /* DetailViewController.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		49E308EA22889C7D0024E4EF /* core */ = {
+			isa = PBXGroup;
+			children = (
+				49E308EB22889CEC0024E4EF /* services */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		49E308EB22889CEC0024E4EF /* services */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC116FCE5F02A48379AEBF /* remote */,
+				3AFC1E81651B1534C6DA13DC /* local */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		5F8A98A6AFFCC6FF292D3A78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66AAAFDEDD59C45454B7FBC9 /* Pods-starwars.debug.xcconfig */,
+				A3F073F5C7BFF715D1349CBE /* Pods-starwars.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C08CA673222836B300E8609E = {
 			isa = PBXGroup;
 			children = (
 				C08CA67E222836B300E8609E /* starwars */,
 				C08CA67D222836B300E8609E /* Products */,
+				5F8A98A6AFFCC6FF292D3A78 /* Pods */,
+				DEA9D15E520353D88C912735 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +300,23 @@
 		C08CA67E222836B300E8609E /* starwars */ = {
 			isa = PBXGroup;
 			children = (
+				49E308EA22889C7D0024E4EF /* core */,
 				C08CA67F222836B300E8609E /* AppDelegate.swift */,
-				C08CA681222836B300E8609E /* ViewController.swift */,
 				C08CA683222836B300E8609E /* Main.storyboard */,
 				C08CA686222836B400E8609E /* Assets.xcassets */,
 				C08CA688222836B400E8609E /* LaunchScreen.storyboard */,
 				C08CA68B222836B400E8609E /* Info.plist */,
-				C08CA69122286CB500E8609E /* DetailViewController.swift */,
+				3AFC16BC60D06231B605E2D2 /* modules */,
 			);
 			path = starwars;
+			sourceTree = "<group>";
+		};
+		DEA9D15E520353D88C912735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C7233767942AD34191E0125 /* Pods_starwars.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C08CA68E222836B400E8609E /* Build configuration list for PBXNativeTarget "starwars" */;
 			buildPhases = (
+				DD99E27B0F1B4D443EB92F07 /* [CP] Check Pods Manifest.lock */,
 				C08CA678222836B300E8609E /* Sources */,
 				C08CA679222836B300E8609E /* Frameworks */,
 				C08CA67A222836B300E8609E /* Resources */,
+				EB266A3468066646BBA15D88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +387,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DD99E27B0F1B4D443EB92F07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-starwars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB266A3468066646BBA15D88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-starwars/Pods-starwars-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-starwars/Pods-starwars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C08CA678222836B300E8609E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08CA69222286CB500E8609E /* DetailViewController.swift in Sources */,
-				C08CA682222836B300E8609E /* ViewController.swift in Sources */,
 				C08CA680222836B300E8609E /* AppDelegate.swift in Sources */,
+				3AFC1E4F38F55859CDD17735 /* SwapiServiceImplementation.swift in Sources */,
+				3AFC1139BD62850B3B7445F3 /* SwapiService.swift in Sources */,
+				3AFC1B2117D7B6DB8F5CE9F2 /* UserDao.swift in Sources */,
+				3AFC16919001D02C170CDCDC /* GetPeopleUseCase.swift in Sources */,
+				3AFC187DC4FFF2D4714DA086 /* PeopleRepository.swift in Sources */,
+				3AFC1640EC02197CD425018E /* PeopleRemoteDataSource.swift in Sources */,
+				3AFC1D150D9FAB6304D5414E /* PeopleLocalDataSource.swift in Sources */,
+				3AFC19158067BF304A54170B /* People.swift in Sources */,
+				3AFC195CFBC500E595E79224 /* GetPeopleDetailUseCase.swift in Sources */,
+				3AFC113233213CDC7E00726C /* PeopleDetailResponse.swift in Sources */,
+				3AFC15292E4AE86B1E56A25D /* DetailViewController.swift in Sources */,
+				3AFC10B0FB4069F45F3A8CB7 /* LoginRepository.swift in Sources */,
+				3AFC10A171EC15E2AE98519B /* PeopleEntity.swift in Sources */,
+				3AFC1F3F5753770CB04B19C8 /* PeopleResponse.swift in Sources */,
+				3AFC1EBA9D9BFD800254CAB1 /* PeopleService.swift in Sources */,
+				3AFC11327E95A3A32B302910 /* PeopleVC+TableView.swift in Sources */,
+				3AFC1AC18C28BB40D315AEE9 /* PeopleViewController.swift in Sources */,
+				3AFC1E7F6431DB54405989BC /* ProficientViewController.swift in Sources */,
+				3AFC1E1CE21CA50F3636CEED /* PeopleVC+Segue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +602,11 @@
 		};
 		C08CA68F222836B400E8609E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66AAAFDEDD59C45454B7FBC9 /* Pods-starwars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CKXJJXL5F5;
+				DEVELOPMENT_TEAM = Z894G6Y62M;
 				INFOPLIST_FILE = starwars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,10 +621,11 @@
 		};
 		C08CA690222836B400E8609E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F073F5C7BFF715D1349CBE /* Pods-starwars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CKXJJXL5F5;
+				DEVELOPMENT_TEAM = Z894G6Y62M;
 				INFOPLIST_FILE = starwars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
